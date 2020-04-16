@@ -47,7 +47,7 @@ int find_mean(unsigned char T[]);
 int find_median(unsigned char T[]);
 void print_array(unsigned char T[]);
 void print_statistics(unsigned char T[]);
-
+void sort_array(unsigned char T[]);
 
 
 #endif /* __STATS_H__ */
