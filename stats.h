@@ -27,18 +27,20 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * 
  *
- * <Add Extended Description Here>
- *
- * find_minimum(): it returns the minimum
- * find_maximum(): it returns the maximum
- * find_mean() : it returns the mean
- * find_median() : it returns the median value
+ * find_minimum(): it returns the minimum, we use one variable to store store the first
+   component of the array then we compare it to the others in a for loop.
+ * find_maximum(): it returns the maximum, same method as minimum , we just inverse the
+   relational operator
+ * find_mean() : it returns the mean, we just have to add every component of the array and
+   divide by the SIZE
+ * find_median() : it returns the median value, we have to sort the array, then pick up
+   the component with the index SIZE/2, the SIZE is even so  we don't need to add 1.
  * print_array() : prints the array to the screen
    print_statistics() : prints the statistics of an array including min max 
    mean and median.
- * @return <Add Return Informaiton here>
+ * sort_array(): sort the array from the largest to smallest
  */
 
 int find_minimum(unsigned char T[]);
